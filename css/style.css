@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  width: 100vw;
+  background-color: cornflowerblue;
+}
+header div {
+  width: 35vw;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+}
+header img {
+  border-radius: 50%;
+}
+header h2 {
+  padding-left: 60px;
+  margin-right: 20px;
+}
+header input {
+  margin-right: 20px;
+  width: 900px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+}
+header button {
+  width: 100px;
+  padding: 5px 10px;
+  margin-left: 40px;
+}
+.container {
+  margin-left: 100px;
+  width: 45vw;
+}
+.Language {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+  align-items: center;
+}
+
+.Language button {
+  margin-left: 20px;
+  padding: 3px 7px;
+  border: none;
+}
+
+div {
+  display: flex;
+}
+h2 {
+  padding: 20px;
+}
+.Now_showing div img {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  border-radius:20px ;
+}
+
+h2 {
+  padding: 20px;
+}
+.Upcoming_showing div img {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.movie_card {
+  background-color: rgb(239, 245, 245);
+  display: flex;
+  height: 300px;
+  width: 300px;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  
+
+}
+
+.movie_card h3 {
+  padding-top: 15px;
+}
