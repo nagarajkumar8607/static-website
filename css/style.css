@@ -1,42 +1,47 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 header {
   display: flex;
   width: 100vw;
+  height: 70px;
   background-color: cornflowerblue;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 header div {
-  width: 35vw;
+  width: 40%;
   display: flex;
   padding-left: 40px;
   align-items: center;
 }
 header img {
   border-radius: 50%;
+  margin-left: 20px;
 }
 header h2 {
   padding-left: 60px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 header input {
-  margin-right: 20px;
-  width: 900px;
-  margin-left: 10px;
+  margin-right: 60px;
+  width: 600px;
+
+  
   padding: 5px;
   border-radius: 20px;
   border: none;
 }
 header button {
-  width: 100px;
+  width: 80px;
   padding: 5px 10px;
-  margin-left: 40px;
+  
 }
 .container {
   margin-left: 100px;
-  width: 45vw;
+  width: 60%;
 }
 .Language {
   width: 100vw;
@@ -55,14 +60,12 @@ header button {
 div {
   display: flex;
 }
-h2 {
-  padding: 20px;
-}
+
 .Now_showing div img {
   height: 250px;
   width: 250px;
   display: flex;
-  border-radius:20px ;
+  border-radius: 20px;
 }
 
 h2 {
@@ -78,17 +81,47 @@ h2 {
 .movie_card {
   background-color: rgb(239, 245, 245);
   display: flex;
-  height: 300px;
+  height: 340px;
   width: 300px;
   flex-direction: column;
-  margin: 10px;
+  margin: 30px;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
-  
-
+  border-radius: 50px;
 }
 
 .movie_card h3 {
   padding-top: 15px;
+}
+
+.footer {
+  background-color: cornflowerblue;
+  width: 100vw;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.footer p {
+  margin-left: 490px;
+  margin-top: 20px;
+  font-size: 18px;
+  font: bold;
+}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  header .logo-title,
+  header .container {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  header input {
+    max-width: 100%;
+  }
 }
