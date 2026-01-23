@@ -28,8 +28,6 @@ header h2 {
 header input {
   margin-right: 60px;
   width: 600px;
-
-  
   padding: 5px;
   border-radius: 20px;
   border: none;
@@ -37,7 +35,6 @@ header input {
 header button {
   width: 80px;
   padding: 5px 10px;
-  
 }
 .container {
   margin-left: 100px;
