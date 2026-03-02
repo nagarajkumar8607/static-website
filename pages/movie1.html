@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coolie</title>
-    <link rel="stylesheet" href="../css/movies.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coolie - Search Tickets</title>
+
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/movies.css">
 </head>
+
 <body>
-  <section class="container">
-<img src="../assets/Coolie.webp" height="230px;" width="230px">
 
-        <div class="movie_details">
-    <div>
-       <h1>Coolie</h1>
-    <h3>About the movie</h3>
-    <p>
-      The movie is rugged love story that explors the fiery dyamics between a
-      strong willed couple.As their relationship un folds ,loves, conflict and
-      chors blend into a powerful emotional journey.</p>
+  <!-- ================= HEADER ================= -->
+  <header class="main-header">
+    <div class="logo-section">
+      <a href="../index.html" class="logo-link">
+        <img src="../assets/movies logo.jpg" alt="logo">
+        <h2>Search Tickets</h2>
+      </a>
     </div>
-     <a href ="./show_timing.html" class="booking_button">Book ticket</a>
-      
- </div>
-</section> 
+
+    <div class="search-section">
+      <input type="text" placeholder="Search for movies...">
+      <button>Login</button>
+    </div>
+  </header>
 
 
-<section class="cast_details_container">
-    <h2>Cast: </h2>
+  <!-- ================= MOVIE MAIN SECTION ================= -->
+  <section class="container">
+
+    <img src="../assets/Coolie.webp" alt="Coolie Movie Poster">
+
+    <div class="movie_details">
+      <div>
+        <h1>Coolie</h1>
+        <h3>About the movie</h3>
+        <p>
+          The movie is a rugged love story that explores the fiery dynamics
+          between a strong-willed couple. As their relationship unfolds,
+          love, conflict, and chaos blend into a powerful emotional journey.
+        </p>
+      </div>
+
+      <a href="./show_timing.html" class="booking_button">
+        🎟 Book Ticket
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- ================= CAST SECTION ================= -->
+  <section class="cast_details_container">
+    <h2>Cast</h2>
+
     <div class="cast_details">
-<div  class="cast_card">
-    <img src="../assets/rajini.webp" height="150px" width="150px" alt="" />
-    <span>Rajini Kanth</span>
-</div>
 
-<div class="cast_card">
-    <img src="../assets/nagarjuna.webp" height="150px" width="150px" alt="" />
-    <span>Nagarjuna</span>
-</div>
+      <div class="cast_card">
+        <img src="../assets/rajini.webp" alt="Rajinikanth">
+        <span>Rajinikanth</span>
+      </div>
 
-<div class="cast_card">
-    <img src="../assets/lokesh.jpg" height="150px" width="150px" alt="" />
-    <span>Lokesh Kanagaraj</span>
-</div>
+      <div class="cast_card">
+        <img src="../assets/nagarjuna.webp" alt="Nagarjuna">
+        <span>Nagarjuna</span>
+      </div>
 
-<div class="cast_card">
-    <img src="../assets/Anirudh_Ravichander.jpg" height="150px" width="150px"/>
-    <span>Anirudh Ravichander</span>
-</div>
-<div class="cast_card">
-  <img src="../assets/pooja.webp" height="150px" width="150px">
-  <span>pooja hedge</span>
-</div>
+      <div class="cast_card">
+        <img src="../assets/lokesh.jpg" alt="Lokesh Kanagaraj">
+        <span>Lokesh Kanagaraj</span>
+      </div>
+
+      <div class="cast_card">
+        <img src="../assets/Anirudh_Ravichander.jpg" alt="Anirudh Ravichander">
+        <span>Anirudh Ravichander</span>
+      </div>
+
+      <div class="cast_card">
+        <img src="../assets/pooja.webp" alt="Pooja Hegde">
+        <span>Pooja Hegde</span>
+      </div>
+
     </div>
   </section>
 
 
-  <div class="footer">
-      <p>
-        copy right 2026 &copy; Bigtree EntertainmentPvt.Ltd. All Rights
-        Reserved.
-      </p>
-    </div>
-</html>
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>
+      Copyright 2026 &copy; Bigtree Entertainment Pvt. Ltd.
+      All Rights Reserved.
+    </p>
+  </footer>
 
 </body>
 </html>
